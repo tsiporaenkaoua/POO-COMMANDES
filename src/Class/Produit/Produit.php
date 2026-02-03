@@ -3,11 +3,11 @@
 Class Produit{
 
     //private $id;
-    private $name;
-    private $price;
-    private $stock;
+    private string $name;
+    private float $price;
+    private int $stock;
 
-    public function __construct($name,$price,$stock){
+    public function __construct(string $name,float $price,int $stock){
         $this->name = $name;
         $this->price = $price;
         $this->stock = $stock;
